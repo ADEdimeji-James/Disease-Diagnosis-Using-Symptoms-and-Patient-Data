@@ -10,13 +10,13 @@ Accurate disease diagnosis is often hindered by overlapping symptoms and imbalan
 
 The workflow follows a structured, experiment-driven approach:
 
-Data Preprocessing; Cleaned, encoded, and balanced the dataset for model training while preserving class diversity.
+Data Preprocessing: Cleaned, encoded, and balanced the dataset for model training while preserving class diversity.
 
-Baseline Models; Trained Decision Tree, Random Forest, XGBoost, and LightGBM with class-weight balancing to establish benchmarks.
+Baseline Models: Trained Decision Tree, Random Forest, XGBoost, and LightGBM with class-weight balancing to establish benchmarks.
 
-Hyperparameter Tuning; Applied RandomizedSearchCV to optimize each model’s parameters, leading to significant performance improvements.
+Hyperparameter Tuning: Applied RandomizedSearchCV to optimize each model’s parameters, leading to significant performance improvements.
 
-Ensemble Learning; Constructed a soft voting ensemble of the three best-performing tuned models, achieving superior predictive accuracy and robustness.
+Ensemble Learning: Constructed a soft voting ensemble of the three best-performing tuned models, achieving superior predictive accuracy and robustness.
 
 # Results
 
